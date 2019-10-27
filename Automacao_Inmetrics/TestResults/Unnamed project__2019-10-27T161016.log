@@ -1,0 +1,10 @@
+﻿2019-10-27T16:10:16.0870895-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-27T16:10:16.0880864-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-27T16:10:16.0880864-03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\packages\SpecRun.Runner.3.0.391\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-27T16:10:16.2456936-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\Automacao_Inmetrics\bin\Debug\Automacao_Inmetrics.dll
+2019-10-27T16:10:16.2456936-03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\TestResults" (default)
+2019-10-27T16:10:16.2456936-03:00;VSTestExecutionThread;Info;Profile: 
+2019-10-27T16:10:16.2636489-03:00;VSTestExecutionThread;Info;Log file path: C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\TestResults\Unnamed project__2019-10-27T161016.log
+2019-10-27T16:10:16.2755840-03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-10-27T16:10:16.2815699-03:00;Thread#13;Info;Checking license
+2019-10-27T16:10:16.2955306-03:00;Thread#13;Info;Evaluation mode: test execution starts in 14 seconds... (this delay is removed in the registered version)

@@ -1,0 +1,10 @@
+﻿2019-10-27T16:10:42.2241874-03:00;Thread#1;Info;Reading test run result from Json file "C:\Users\rafae\AppData\Local\Temp\tmp3796.tmp".
+2019-10-27T16:10:42.2261819-03:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\rafae\AppData\Local\Temp\tmp3796.tmp"
+2019-10-27T16:10:42.2261819-03:00;Thread#1;Info;Deserializing test run result
+2019-10-27T16:10:42.6391087-03:00;Thread#1;Info;Successfully deserialized test run result
+2019-10-27T16:10:42.6391087-03:00;Thread#1;Info;Loading test run result
+2019-10-27T16:10:42.6590565-03:00;Thread#1;Info;Successfully loaded test run result
+2019-10-27T16:10:42.6690001-03:00;Thread#1;Info;creating 1 report(s)
+2019-10-27T16:10:42.6690001-03:00;Thread#1;Info;generate Report ReportTemplate.cshtml
+2019-10-27T16:10:43.8438561-03:00;Thread#1;Info;Finished generating reports.
+========== End of log file ==========
