@@ -1,0 +1,210 @@
+﻿2019-10-27T22:51:26.3991936-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-27T22:51:26.3991936-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-27T22:51:26.3991936-03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\packages\SpecRun.Runner.3.0.391\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-27T22:51:26.5534394-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\Automacao_Inmetrics\bin\Debug\Automacao_Inmetrics.dll
+2019-10-27T22:51:26.5544312-03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\TestResults" (default)
+2019-10-27T22:51:26.5544312-03:00;VSTestExecutionThread;Info;Profile: 
+2019-10-27T22:51:26.6157786-03:00;VSTestExecutionThread;Info;Log file path: C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\TestResults\Unnamed project__2019-10-27T225126.log
+2019-10-27T22:51:26.6437033-03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-10-27T22:51:26.6935705-03:00;Thread#14;Info;Checking license
+2019-10-27T22:51:26.8033138-03:00;Thread#14;Info;Evaluation mode: test execution starts in 8 seconds... (this delay is removed in the registered version)
+2019-10-27T22:51:34.8050436-03:00;Thread#14;Info;Evaluation delay finished.
+2019-10-27T22:51:34.8130248-03:00;Thread#14;Info;License check completed
+2019-10-27T22:51:34.8130248-03:00;Thread#14;Info;starting test run
+2019-10-27T22:51:34.8414591-03:00;Thread#14;Info;Discovering target: Default
+2019-10-27T22:51:34.8414591-03:00;Thread#14;Info;Discovering tests from assembly: C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\Automacao_Inmetrics\bin\Debug\Automacao_Inmetrics.dll
+2019-10-27T22:51:35.6413192-03:00:Appdomain Disposed
+2019-10-27T22:51:35.6413192-03:00;Thread#14;Info;Discovered tests from assembly: C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\Automacao_Inmetrics\bin\Debug\Automacao_Inmetrics.dll
+2019-10-27T22:51:35.6423176-03:00:Test Suite Dump
+2019-10-27T22:51:35.6433157-03:00:#0: Unnamed project/ - 
+2019-10-27T22:51:35.6433157-03:00:#1: Default - 
+2019-10-27T22:51:35.6433157-03:00:#2: Automacao_Inmetrics - 
+2019-10-27T22:51:35.6433157-03:00:#3: Desafio inmetrics. - 
+2019-10-27T22:51:35.6941787-03:00:#4: Realizar busca por vagas no site da Empresa - TestAssembly:Automacao_Inmetrics/Feature:Desafio+inmetrics./Scenario:Realizar+busca+por+vagas+no+site+da+Empresa
+2019-10-27T22:51:35.6941787-03:00:End: Test Suite Dump
+2019-10-27T22:51:35.7310794-03:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-27T22:51:35.7340723-03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-10-27T22:51:35.7340723-03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-10-27T22:51:35.7410528-03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-27T22:51:35.7410528-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-10-27T22:51:35.7410528-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-10-27T22:51:35.7410528-03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-10-27T22:51:35.7430468-03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-10-27T22:51:35.7440468-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-27T22:51:35.7475467-03:00:Thread #0: creating new test thread executor for Automacao_Inmetrics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-27T22:51:35.7495413-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-27T22:51:35.7505380-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-27T22:51:35.7515346-03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-27T22:51:36.3368541-03:00:test thread #0 error: System.IO.FileNotFoundException: Não foi possível carregar arquivo ou assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' ou uma de suas dependências. O sistema não pode encontrar o arquivo especificado.
+Nome do arquivo: 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' ---> System.IO.FileNotFoundException: Não foi possível carregar arquivo ou assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' ou uma de suas dependências. O sistema não pode encontrar o arquivo especificado.
+Nome do arquivo: 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' ---> System.IO.FileNotFoundException: Não foi possível carregar arquivo ou assembly 'file:///C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\Automacao_Inmetrics\bin\Debug\SpecFlowPlusRunner\net45\Newtonsoft.Json.dll' ou uma de suas dependências. O sistema não pode encontrar o arquivo especificado.
+Nome do arquivo: 'file:///C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\Automacao_Inmetrics\bin\Debug\SpecFlowPlusRunner\net45\Newtonsoft.Json.dll'
+   em System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   em System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   em TechTalk.SpecRun.Framework.AssemblyResolver.<>c__DisplayClass0_0.<Hook>b__0(Object sender, ResolveEventArgs args)
+   em System.AppDomain.OnAssemblyResolveEvent(RuntimeAssembly assembly, String assemblyFullName)
+
+=== Informações sobre estado pré-associação ===
+LOG: associação Where-ref. Local = C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\Automacao_Inmetrics\bin\Debug\SpecFlowPlusRunner\net45\Newtonsoft.Json.dll
+LOG: Appbase = file:///C:/Users/rafae/Desktop/desafio/inmetrics-csharp/Automacao_Inmetrics/Automacao_Inmetrics/bin/Debug
+LOG: PrivatePath inicial = NULL
+Chamando assembly: (Unknown).
+===
+LOG: esta associação começa no contexto de carregamento LoadFrom.
+AVI: a imagem nativa não será analisada no contexto LoadFrom. A imagem nativa será analisada apenas no contexto de carregamento padrão, como com Assembly.Load().
+LOG: usando arquivo de configuração de aplicativo: C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\Automacao_Inmetrics\bin\Debug\Automacao_Inmetrics.dll.config
+LOG: usando arquivo de configuração de host: 
+LOG: usando arquivo de configuração da máquina de C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: a mesma associação foi vista antes e falhou com hr = 0x80070002.
+
+   em System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   em System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   em TechTalk.SpecRun.Framework.AssemblyResolver.<>c__DisplayClass0_0.<Hook>b__0(Object sender, ResolveEventArgs args)
+   em System.AppDomain.OnAssemblyResolveEvent(RuntimeAssembly assembly, String assemblyFullName)
+
+
+
+Server stack trace: 
+   em System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   em System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   em System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   em System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly& lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   em System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   em System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   em System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   em System.Runtime.Serialization.FormatterServices.GetClrAssemblyName(Type type, Boolean& hasTypeForwardedFrom)
+   em System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.GetTypeInformation(Type type)
+   em System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache..ctor(Type type)
+   em System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.InitMemberInfo()
+   em System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.InitReadConstructor(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context)
+   em System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.Init(Type objectType, String[] memberNames, Type[] memberTypes, ISurrogateSelector surrogateSelector, StreamingContext context, ObjectManager objectManager, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, Boolean bSimpleAssembly)
+   em System.Runtime.Serialization.Formatters.Binary.ObjectMap..ctor(String objectName, String[] memberNames, BinaryTypeEnum[] binaryTypeEnumA, Object[] typeInformationA, Int32[] memberAssemIds, ObjectReader objectReader, Int32 objectId, BinaryAssemblyInfo assemblyInfo, SizedArray assemIdToAssemblyTable)
+   em System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadObjectWithMapTyped(BinaryObjectWithMapTyped record)
+   em System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadObjectWithMapTyped(BinaryHeaderEnum binaryHeaderEnum)
+   em System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   em System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   em System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   em System.Runtime.Remoting.Channels.CrossAppDomainSerializer.DeserializeObject(MemoryStream stm)
+   em System.Runtime.Remoting.Messaging.SmuggledMethodReturnMessage.FixupForNewAppDomain()
+   em System.Runtime.Remoting.Channels.CrossAppDomainSink.SyncProcessMessage(IMessage reqMsg)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em TechTalk.SpecRun.Framework.ITestExecutionManager.GetTestSuite()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em TechTalk.SpecRun.Framework.TestCollectionsProvider.GetTestCollections()
+   em TechTalk.SpecRun.Framework.TestAssemblyExecutorsProvider.GetTestAssemblyInitializeExecutors()
+   em TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunAssemblyInitializeExecutors(ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   em TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(ITestAssemblyExecutorState executorState, ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   em TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   em System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   em System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [1]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em TechTalk.SpecRun.Framework.ITestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   em TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   em TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   em TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   em TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+
+
+2019-10-27T22:51:36.3388487-03:00:test thread error: TechTalk.SpecRun.Framework.SpecRunException: At least one test thread aborted. ---> System.IO.FileNotFoundException: Não foi possível carregar arquivo ou assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' ou uma de suas dependências. O sistema não pode encontrar o arquivo especificado. ---> System.IO.FileNotFoundException: Não foi possível carregar arquivo ou assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' ou uma de suas dependências. O sistema não pode encontrar o arquivo especificado. ---> System.IO.FileNotFoundException: Não foi possível carregar arquivo ou assembly 'file:///C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\Automacao_Inmetrics\bin\Debug\SpecFlowPlusRunner\net45\Newtonsoft.Json.dll' ou uma de suas dependências. O sistema não pode encontrar o arquivo especificado.
+   em System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   em System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   em TechTalk.SpecRun.Framework.AssemblyResolver.<>c__DisplayClass0_0.<Hook>b__0(Object sender, ResolveEventArgs args)
+   em System.AppDomain.OnAssemblyResolveEvent(RuntimeAssembly assembly, String assemblyFullName)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   em System.Reflection.RuntimeAssembly.InternalLoadFrom(String assemblyFile, Evidence securityEvidence, Byte[] hashValue, AssemblyHashAlgorithm hashAlgorithm, Boolean forIntrospection, Boolean suppressSecurityChecks, StackCrawlMark& stackMark)
+   em System.Reflection.Assembly.LoadFrom(String assemblyFile)
+   em TechTalk.SpecRun.Framework.AssemblyResolver.<>c__DisplayClass0_0.<Hook>b__0(Object sender, ResolveEventArgs args)
+   em System.AppDomain.OnAssemblyResolveEvent(RuntimeAssembly assembly, String assemblyFullName)
+   --- Fim do rastreamento de pilha de exceções internas ---
+
+Server stack trace: 
+   em System.ModuleHandle.ResolveType(RuntimeModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   em System.ModuleHandle.ResolveTypeHandleInternal(RuntimeModule module, Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   em System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   em System.Reflection.CustomAttribute.FilterCustomAttributeRecord(CustomAttributeRecord caRecord, MetadataImport scope, Assembly& lastAptcaOkAssembly, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, Object[] attributes, IList derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctor, Boolean& ctorHasParameters, Boolean& isVarArg)
+   em System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes, Boolean isDecoratedTargetSecurityTransparent)
+   em System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   em System.RuntimeType.GetCustomAttributes(Type attributeType, Boolean inherit)
+   em System.Runtime.Serialization.FormatterServices.GetClrAssemblyName(Type type, Boolean& hasTypeForwardedFrom)
+   em System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.GetTypeInformation(Type type)
+   em System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache..ctor(Type type)
+   em System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.InitMemberInfo()
+   em System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.InitReadConstructor(Type objectType, ISurrogateSelector surrogateSelector, StreamingContext context)
+   em System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo.Init(Type objectType, String[] memberNames, Type[] memberTypes, ISurrogateSelector surrogateSelector, StreamingContext context, ObjectManager objectManager, SerObjectInfoInit serObjectInfoInit, IFormatterConverter converter, Boolean bSimpleAssembly)
+   em System.Runtime.Serialization.Formatters.Binary.ObjectMap..ctor(String objectName, String[] memberNames, BinaryTypeEnum[] binaryTypeEnumA, Object[] typeInformationA, Int32[] memberAssemIds, ObjectReader objectReader, Int32 objectId, BinaryAssemblyInfo assemblyInfo, SizedArray assemIdToAssemblyTable)
+   em System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadObjectWithMapTyped(BinaryObjectWithMapTyped record)
+   em System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadObjectWithMapTyped(BinaryHeaderEnum binaryHeaderEnum)
+   em System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   em System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   em System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   em System.Runtime.Remoting.Channels.CrossAppDomainSerializer.DeserializeObject(MemoryStream stm)
+   em System.Runtime.Remoting.Messaging.SmuggledMethodReturnMessage.FixupForNewAppDomain()
+   em System.Runtime.Remoting.Channels.CrossAppDomainSink.SyncProcessMessage(IMessage reqMsg)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em TechTalk.SpecRun.Framework.ITestExecutionManager.GetTestSuite()
+   em System.Lazy`1.CreateValue()
+   em System.Lazy`1.LazyInitValue()
+   em System.Lazy`1.get_Value()
+   em TechTalk.SpecRun.Framework.TestCollectionsProvider.GetTestCollections()
+   em TechTalk.SpecRun.Framework.TestAssemblyExecutorsProvider.GetTestAssemblyInitializeExecutors()
+   em TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunAssemblyInitializeExecutors(ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   em TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(ITestAssemblyExecutorState executorState, ITestAssemblyExecutorsProvider testAssemblyExecutorsProvider, ITestThreadExecutionContext testThreadExecutionContext)
+   em TechTalk.SpecRun.Framework.TestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   em System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]& outArgs)
+   em System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [1]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em TechTalk.SpecRun.Framework.ITestAssemblyExecutor.RunTests(TestThreadState testThreadState)
+   em TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost.RunTests(TestThreadState testThreadState)
+   em TechTalk.SpecRun.Framework.TestThread.RunNonEmptyTestSuite(CancellationToken cancellationToken, TestThreadState testThreadState)
+   em TechTalk.SpecRun.Framework.TestThread.Run(ITestExecutionManager executionManagerForRun, CancellationToken cancellationToken)
+   em TechTalk.SpecRun.Framework.AsyncTestThreadRunner.RunSync(TestExecutionManager executionManager, CancellationToken cancellationToken)
+   --- Fim do rastreamento de pilha de exceções internas ---
+2019-10-27T22:51:36.3398466-03:00:Trying to cancel thread
+2019-10-27T22:51:36.3398466-03:00:Thread cancelled
+2019-10-27T22:51:36.3508180-03:00:Thread#-1: Test #4/0 is started on thread #-1
+2019-10-27T22:51:36.3528115-03:00:Thread#-1: Test #4/0 is finished on thread #-1 as Skipped within 0,000997 seconds
+2019-10-27T22:51:36.3548060-03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-10-27T22:51:36.3548060-03:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-27T22:51:36.3548060-03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-10-27T22:51:36.3617879-03:00;Thread#14;Info;test run finished
+2019-10-27T22:51:36.3617879-03:00;Thread#14;Info;publishing test results
+2019-10-27T22:51:36.3807367-03:00;Thread#14;Info;test results published
+2019-10-27T22:51:36.3807367-03:00;Thread#14;Info;generating reports
+2019-10-27T22:51:36.5238628-03:00;Thread#14;Info;Starting external report generation process
+2019-10-27T22:51:38.9474063-03:00;Thread#14;Info;Successfully generated reports.
+2019-10-27T22:51:38.9503995-03:00;Thread#14;Info;Successfully generated reports
+2019-10-27T22:51:38.9603719-03:00:Total: 1
+2019-10-27T22:51:38.9623664-03:00:Succeeded: 0
+2019-10-27T22:51:38.9623664-03:00:Ignored: 0
+2019-10-27T22:51:38.9623664-03:00:Pending: 0
+2019-10-27T22:51:38.9623664-03:00:Skipped: 1
+2019-10-27T22:51:38.9633637-03:00:Failed: 0
+2019-10-27T22:51:38.9653594-03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-10-27T22:51:38.9653594-03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\TestResults\Unnamed project__2019-10-27T225126.html'
+========== End of log file ==========

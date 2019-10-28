@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Configuration;
 using Automacao_Inmetrics.Utils;
+using BoDi;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -8,24 +10,40 @@ using TechTalk.SpecFlow;
 
 namespace Automacao_Inmetrics.Utils
 {
-    [Binding]
+
     public class Hook_Test
     {
-       
+
+        private static int inc { get; set; }
+        private readonly IObjectContainer container;
+
+        public Hook_Test(IObjectContainer _container)
+        {
+            this.container = _container;
+        }
 
         [BeforeScenario]
         public void BeforeScenario()
         {
-            IWebDriver driver = new ChromeDriver();
-            driver.Navigate().GoToUrl("https://www.inmetrics.com.br/");
-            driver.Manage().Window.Maximize();
+            RemoterWebDriver.initDriver("Chrome").Url = "https://www.inmetrics.com.br";
+            container.RegisterInstanceAs<RemoteWebDriver>(RemoterWebDriver.GetDriver());
 
         }
 
-        [AfterScenario]
-        public void afterScenario()
+        [BeforeStep]
+        public static void BeforeStep()
         {
-            Base.EndSession();
+            Base bs = new Base(RemoterWebDriver.GetDriver());
+            bs.WaitForPageLoading();
+            bs.ReturnToTheTopPage();
+
+        }
+
+
+        [AfterScenario]
+        public static void DisposeDriver()
+        {
+            RemoterWebDriver.RemoveCurrentThread();
         }
     }
 }

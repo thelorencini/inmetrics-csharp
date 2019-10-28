@@ -1,0 +1,42 @@
+﻿2019-10-27T23:07:21.8171126-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-27T23:07:21.8171126-03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-27T23:07:21.8171126-03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\packages\SpecRun.Runner.3.0.391\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-27T23:07:21.9946375-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\Automacao_Inmetrics\bin\Debug\Automacao_Inmetrics.dll
+2019-10-27T23:07:21.9986273-03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\TestResults" (default)
+2019-10-27T23:07:22.0006215-03:00;VSTestExecutionThread;Info;Profile: 
+2019-10-27T23:07:22.0913797-03:00;VSTestExecutionThread;Info;Log file path: C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\TestResults\Unnamed project__2019-10-27T230722.log
+2019-10-27T23:07:22.1103283-03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-10-27T23:07:22.1272818-03:00;Thread#13;Info;Checking license
+2019-10-27T23:07:22.1492237-03:00;Thread#13;Info;Evaluation mode: test execution starts in 7 seconds... (this delay is removed in the registered version)
+2019-10-27T23:07:29.1514444-03:00;Thread#13;Info;Evaluation delay finished.
+2019-10-27T23:07:29.1574278-03:00;Thread#13;Info;License check completed
+2019-10-27T23:07:29.1584257-03:00;Thread#13;Info;starting test run
+2019-10-27T23:07:29.1783710-03:00;Thread#13;Info;Discovering target: Default
+2019-10-27T23:07:29.1793683-03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\Automacao_Inmetrics\bin\Debug\Automacao_Inmetrics.dll
+2019-10-27T23:07:29.8098483-03:00:Appdomain Disposed
+2019-10-27T23:07:29.8098483-03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\Automacao_Inmetrics\bin\Debug\Automacao_Inmetrics.dll
+2019-10-27T23:07:29.8108446-03:00:Test Suite Dump
+2019-10-27T23:07:29.8128390-03:00:#0: Unnamed project/ - 
+2019-10-27T23:07:29.8128390-03:00:#1: Default - 
+2019-10-27T23:07:29.8128390-03:00:#2: Automacao_Inmetrics - 
+2019-10-27T23:07:29.8128390-03:00:#3: Desafio inmetrics. - 
+2019-10-27T23:07:29.8627067-03:00:#4: Realizar busca por vagas no site da Empresa - TestAssembly:Automacao_Inmetrics/Feature:Desafio+inmetrics./Scenario:Realizar+busca+por+vagas+no+site+da+Empresa
+2019-10-27T23:07:29.8627067-03:00:End: Test Suite Dump
+2019-10-27T23:07:29.8866422-03:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-27T23:07:29.8886367-03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-10-27T23:07:29.8886367-03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-10-27T23:07:29.8936229-03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-27T23:07:29.8936229-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-10-27T23:07:29.8936229-03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-10-27T23:07:29.8936229-03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-10-27T23:07:29.8946212-03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-10-27T23:07:29.8956183-03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-27T23:07:29.8976127-03:00:Thread #0: creating new test thread executor for Automacao_Inmetrics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-27T23:07:29.8996068-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-27T23:07:29.8996068-03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-27T23:07:29.9006043-03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-27T23:07:30.2663683-03:00:Thread#0: Test #4/0 is started on thread #0
+2019-10-27T23:07:30.5137049-03:00:Thread#0:T:-> Loading plugin C:\Users\rafae\Desktop\desafio\inmetrics-csharp\Automacao_Inmetrics\Automacao_Inmetrics\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-10-27T23:07:30.5236801-03:00:Thread#0:T:-> Using default config
+2019-10-27T23:07:30.9505367-03:00:Thread#0:B:Dado que eu acesso o site da Inmetrics
+2019-10-27T23:07:31.1260683-03:00:Thread#0:T:error: Circular dependency found! System.Uri (resolution path: Automacao_Inmetrics.StepDefinitions.Global_Steps->OpenQA.Selenium.Remote.RemoteWebDriver->System.Uri)

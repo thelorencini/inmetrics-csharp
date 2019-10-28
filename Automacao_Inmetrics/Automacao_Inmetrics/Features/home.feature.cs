@@ -68,28 +68,20 @@ namespace Automacao_Inmetrics.Features
             testRunner.CollectScenarioErrors();
         }
         
-        public virtual void FeatureBackground()
-        {
-#line 7
-#line 8
-   testRunner.Given("que eu acesso o site da Inmetrics", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
-#line hidden
-        }
-        
-        [TechTalk.SpecRun.ScenarioAttribute("Realizar busca por vagas no site da Empresa", SourceLine=9)]
+        [TechTalk.SpecRun.ScenarioAttribute("Realizar busca por vagas no site da Empresa", SourceLine=7)]
         public virtual void RealizarBuscaPorVagasNoSiteDaEmpresa()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Realizar busca por vagas no site da Empresa", null, ((string[])(null)));
-#line 10
+#line 8
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
-#line 7
-this.FeatureBackground();
-#line 11
+#line 9
+  testRunner.Given("que eu acesso o site da Inmetrics", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Dado ");
+#line 10
   testRunner.And("desejo visualizar as opções de carreira", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "E ");
-#line 12
+#line 11
   testRunner.When("eu selecionar o button para conferir vagas disponiveis", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quando ");
-#line 13
+#line 12
   testRunner.Then("devo ser direcionado para pagina de oportunidades", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Entao ");
 #line hidden
             this.ScenarioCleanup();

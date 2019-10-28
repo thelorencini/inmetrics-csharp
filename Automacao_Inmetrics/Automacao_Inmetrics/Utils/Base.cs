@@ -1,16 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
+using TechTalk.SpecFlow;
 
 namespace Automacao_Inmetrics.Utils
 {
+    [Binding]
     public class Base
     {
         [ThreadStatic]
@@ -95,6 +99,42 @@ namespace Automacao_Inmetrics.Utils
 
             }
 
+        }
+
+        public void WaitForPageLoading(int secondsToWait = 30000)
+        {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+            try
+            {
+                while (sw.Elapsed.TotalSeconds < secondsToWait)
+                {
+                    var pageIsReady = (bool)((IJavaScriptExecutor)driver).ExecuteScript("return document.readyState == 'complete'");
+                    if (pageIsReady)
+                        break;
+                    Thread.Sleep(100);
+                }
+            }
+            catch (Exception)
+            {
+                driver.Quit();
+                throw new TimeoutException("Page loading time out time has passed " + secondsToWait + " seconds");
+            }
+            finally
+            {
+                sw.Stop();
+            }
+        }
+
+        public static object executeJS(string command)
+        {
+            var jsDriver = (IJavaScriptExecutor)driver;
+            return jsDriver.ExecuteScript(command);
+        }
+
+        internal void ReturnToTheTopPage()
+        {
+            executeJS("window.scrollTo(0,0)");
         }
     }
 }
